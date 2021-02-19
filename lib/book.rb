@@ -3,12 +3,7 @@ class Book
     @title = title
   end
   
-  def title
-    @title
-  end
+  attr_accessor
   
-  def author=(author)
-    @author = author
-  end
 end
 
